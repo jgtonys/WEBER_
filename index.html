@@ -1,14 +1,110 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>team_project</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="con">
+    <div id="header">
+      <img src="src/asset/logo/logo.PNG" width="450px" height="190px">
+    </div>
+    <div id="nav">
+      <ul>
+        <li v-for="location in location_list"><button :onclick="location.link">{{ location.name }}</button></li>
+      </ul>
+    </div>
+    <div id="wrap">
+      <div id="content">
+        <table>
+          <tr class="day">
+            <td>월</td>
+            <td>화</td>
+            <td>수</td>
+            <td>목</td>
+            <td>금</td>
+            <td>토</td>
+            <td>일</td>
+          </tr>
+          <tr class="cal">
+            <td v-for="day in week">
+              <p v-for="content in day"><a @click="showDetail(content)">{{ content.name }}</a></p>
+            </td>
+          </tr>
+        </table>
+
+        <div class="recommend" v-if="!contentDetail">
+          <h2>추천 전시 정보</h2>
+          <div class="post" v-for="(item,i) in recommend">
+            <a @click="showDetail(item)"><img :src="item.img" width="230px" height="300px"><br>{{ item.name }}</a>
+          </div>
+        </div>
+
+        <div class="post-detail" v-if="contentDetail">
+          <div class="post-img">
+            <h2>{{ detail.name }}</h2>
+            <img :src="detail.img" width="350px" height="500px"><br>
+          </div>
+          <div class="post-content">
+            <p>{{ detail.contents.date }}</p>
+            <p>{{ detail.contents.author }}</p>
+            <p>{{ detail.contents.numOfWorks }}</p>
+            <p>{{ detail.contents.price }}</p>
+            <p>{{ detail.contents.host }}</p>
+            <p>{{ detail.contents.content }}</p>
+            <br>
+            <form>
+              <input type="button" value="예약하기">
+              <!--누르면 예약 폼으로 연결됨-->
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="banner">
+        <div class="newsletter">
+          <p class="email"><i class="far fa-envelope"></i>뉴스레터</p>
+          <form>
+            <input type="text" placeholder="이메일을 입력해주세요.">
+            <input type="submit" value="구독하기">
+          </form>
+        </div>
+
+        <hr>
+        <div class="sns">
+          <a href="https://www.facebook.com/mmcakorea/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.twitter.com/mmcakorea" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/mmcakorea/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <hr>
+        <div class="player">
+          <video src="src/asset/video/video.mp4" width="290px" height="180px" controls></video>
+        </div>
+
+        <hr>
+        <div>
+          빈공간은 gif 이미지 넣을 예정
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>대표자명 윤범모 사업자등록번호 138-83-00313</p>
+      <p>Copyright (c)2018 National Museum of Modern and Contemporary Art, Korea All rights reserved.</p>
+      <p>대표전화 | (과천) 02-2188-6000, (서울) 02-3701-9500, (덕수궁) 02-2022-0600, (청주) 043-261-1400</p>
+      <p>Copyright ⓒ 2019 WEBER<p>
+    </div>
+  </div>
+</body>
+
+<script src="src/asset/data/dataIndex.js"></script>
+<script src="src/script/handler.js"></script>
+
 </html>

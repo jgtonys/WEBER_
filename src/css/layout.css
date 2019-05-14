@@ -1,0 +1,161 @@
+a {
+  cursor: pointer;
+}
+
+div {       /*전체 div에 마진 패딩 5px씩*/
+    /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#con {      /*웹 전체를 감싸는 태그*/
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* /////// 헤더 /////// */
+#header {
+    width: 1180px;
+    height: 200px;
+    line-height: 100px;
+}
+
+/* /////// 네비게이션 /////// */
+#nav {
+    width: 1180px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#nav ul {
+  list-style-type: none;
+}
+
+#nav ul li button {
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: #cacaca;
+    border: 1px solid #dddddd;
+}
+
+#nav ul li button:hover {
+  background-color: #555;
+  color: white;
+}
+
+#wrap {     /*컨텐트와 배너를 감싸는 태그*/
+    width: 1180px;
+    overflow: hidden;
+}
+
+/* /////// 컨텐트(아티클) /////// */
+#content {
+    width: 835px;
+    float: left;
+}
+
+/*전시 달력*/
+td, tr {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: 50px;
+    width: 785px;
+}
+
+.cal {
+    height: 100px;  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
+}
+
+/*추천 전시 세가지*/
+.recommend {
+    margin-left: 30px;
+}
+
+.post {
+    margin: 10px;
+    float: left;
+}
+
+.post button {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: none;
+}
+
+/* /////// 배너 /////// */
+#banner {
+    width: 300px;
+    float: left;
+}
+
+/*뉴스레터 받아보기*/
+.newsletter {
+    margin: 30px 0;
+}
+
+.email {
+    color:black;
+    margin: 10px;
+    font-size: 30px;
+}
+
+input[type=text] {
+    width: 150px;
+    margin: 10px 0 10px 5px;
+    border-radius: 25px 0 0 25px;
+    padding: 5px;
+}
+
+input[type=submit] {
+    width: 70px;
+    margin: 10px 5px 10px 0;
+    border-radius: 0 25px 25px 0;
+    padding: 5px;
+}
+
+/*이미지에 SNS링크걸어둠*/
+.sns {
+    margin: 30px 0;
+}
+
+.sns a {
+    margin: 10px;
+    color:black;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+/*미술관 홍보동영상*/
+.player {
+    margin: 30px 0;
+}
+
+/* /////// 풋터 /////// */
+#footer {
+    width: 1180px;
+}
+
+/*전시 클릭하면 전시정보 자세히 나옴*/
+.post-detail {
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.post-img {
+    margin: 10px;
+    float: left;
+}
+
+.post-content {
+    margin: 10px;
+    padding: 80px 0 0 0;
+    float: left;
+    text-align: start;
+    width: 360px;
+}
