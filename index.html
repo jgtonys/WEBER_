@@ -12,7 +12,7 @@
 <body>
   <div id="con">
     <div id="header">
-      <img src="src/asset/logo/logo.PNG" width="450px" height="190px">
+      <a href="index.html"><img src="src/asset/logo/logo.PNG" width="450px" height="190px"></a>
     </div>
     <div id="nav">
       <ul>
@@ -21,6 +21,7 @@
     </div>
     <div id="wrap">
       <div id="content">
+        <h2>요일 별 전시정보</h2>
         <table>
           <tr class="day">
             <td>월</td>
@@ -41,7 +42,14 @@
         <div class="recommend" v-if="!contentDetail">
           <h2>추천 전시 정보</h2>
           <div class="post" v-for="(item,i) in recommend">
-            <a @click="showDetail(item)"><img :src="item.img" width="230px" height="300px"><br>{{ item.name }}</a>
+            <a @click="showDetail(item)">
+              <img :src="item.img" width="230px" height="300px">
+              <div class="semi-detail">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.contents.host}}</p>
+                <p>{{ item.contents.date}}</p>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -59,7 +67,7 @@
             <p>{{ detail.contents.content }}</p>
             <br>
             <form>
-              <input type="button" value="예약하기">
+              <input type="button" value="예약하기" onClick="location.href='#.html'">
               <!--누르면 예약 폼으로 연결됨-->
             </form>
           </div>
@@ -68,7 +76,7 @@
 
       <div id="banner">
         <div class="newsletter">
-          <p class="email"><i class="far fa-envelope"></i>뉴스레터</p>
+          <p class="email"><i class="far fa-envelope"></i>&nbsp;뉴스레터</p>
           <form>
             <input type="text" placeholder="이메일을 입력해주세요.">
             <input type="submit" value="구독하기">
@@ -88,14 +96,21 @@
         </div>
 
         <hr>
-        <div>
-          빈공간은 gif 이미지 넣을 예정
-        </div>
 
-      </div>
+        <p class="map"><i class="fas fa-map-marker-alt"></i>&nbsp;국립현대미술관 오시는 길</p>
+        <!--서울, 과천, 덕수궁, 청주 주소-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.753261884332!2d126.97863686504479!3d37.57952725042923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c14dacd53d%3A0x205c23120e574816!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyEnOyauOq0gA!5e0!3m2!1sko!2skr!4v1557898908841!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101284.13410307924!2d126.9299461996947!3d37.50487102355629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed7e746c37%3A0x94e9dea2d7bf466d!2z6rWt66a97ZiE64yA66-47Iig6rSA!5e0!3m2!1sko!2skr!4v1557899183635!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12649.013284922932!2d126.96827588293273!3d37.57265217674595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f0b7fddc216fc3!2z6rWt66a97ZiE64yA66-47Iig6rSAIOuNleyImOq2geq0gA!5e0!3m2!1sko!2skr!4v1557899076449!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.79286240197!2d127.4880026151129!3d36.65543347997859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565278d8298e149%3A0xd5a6eecde9138557!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyyreyjvOq0gA!5e0!3m2!1sko!2skr!4v1557899121053!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        -->
+
+    </div>
     </div>
 
+    <hr>
     <div id="footer">
+      <img src="src/asset/logo/logo2.PNG" width="100px" height="100px">
       <p>대표자명 윤범모 사업자등록번호 138-83-00313</p>
       <p>Copyright (c)2018 National Museum of Modern and Contemporary Art, Korea All rights reserved.</p>
       <p>대표전화 | (과천) 02-2188-6000, (서울) 02-3701-9500, (덕수궁) 02-2022-0600, (청주) 043-261-1400</p>

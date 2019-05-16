@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Yeon+Sung);
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 a {
   cursor: pointer;
 }
@@ -8,6 +15,14 @@ div {       /*전체 div에 마진 패딩 5px씩*/
     margin: 5px;
     text-align: center;
 }
+
+h2 {   /*요일 별 전시정보 타이틀*/
+    width: 190px;
+    padding: 10px;
+    margin: 20px auto;
+    border-bottom: 2px solid #cacaca;
+}
+
 
 #con {      /*웹 전체를 감싸는 태그*/
     width: 1200px;
@@ -40,6 +55,7 @@ div {       /*전체 div에 마진 패딩 5px씩*/
     float: left;
     background-color: #cacaca;
     border: 1px solid #dddddd;
+    font-weight: bold;
 }
 
 #nav ul li button:hover {
@@ -58,18 +74,30 @@ div {       /*전체 div에 마진 패딩 5px씩*/
     float: left;
 }
 
+
 /*전시 달력*/
-td, tr {
-    border: 1px solid black;
-}
 
 table {
     margin-left: 50px;
     width: 785px;
 }
 
+td {
+    padding: 5px 0;
+}
+
+
+.day {
+    border: 1px solid #bebebe;
+    background-color: #bebebe;
+    font-weight: bold;
+}
+
 .cal {
     height: 100px;  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
+    border: 1px solid #eeeeee;
+    background: linear-gradient(0deg, #eeeeee, #cacaca);
+    font-size: 14px;
 }
 
 /*추천 전시 세가지*/
@@ -82,11 +110,20 @@ table {
     float: left;
 }
 
-.post button {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  background-color: none;
+.post .semi-detail {
+  text-align: left;
+  margin: 1px;
+  padding: 1px;
 }
+
+.post .semi-detail p {
+  margin: 1px 0px 0px 1px;
+}
+
+.post .semi-detail h3 {
+  margin: 1px 0px 10px 1px;
+}
+
 
 /* /////// 배너 /////// */
 #banner {
@@ -97,12 +134,14 @@ table {
 /*뉴스레터 받아보기*/
 .newsletter {
     margin: 30px 0;
+    border: 2px solid #dddddd;
 }
 
 .email {
     color:black;
     margin: 10px;
     font-size: 30px;
+    font-family: 'Yeon Sung', cursive;
 }
 
 input[type=text] {
@@ -117,6 +156,7 @@ input[type=submit] {
     margin: 10px 5px 10px 0;
     border-radius: 0 25px 25px 0;
     padding: 5px;
+    cursor: pointer;
 }
 
 /*이미지에 SNS링크걸어둠*/
@@ -136,15 +176,24 @@ input[type=submit] {
     margin: 30px 0;
 }
 
+/*지도. 오시는 길. */
+.map {
+    margin: 30px 0 15px 0;
+    font-size: 18px;
+    font-family: 'Yeon Sung', cursive;
+}
+
 /* /////// 풋터 /////// */
 #footer {
     width: 1180px;
+    font-size: 10px;
 }
 
 /*전시 클릭하면 전시정보 자세히 나옴*/
 .post-detail {
     margin-left: 50px;
     overflow: hidden;
+    border: 2px solid #dddddd;
 }
 
 .post-img {
@@ -158,4 +207,16 @@ input[type=submit] {
     float: left;
     text-align: start;
     width: 360px;
+}
+
+/*예약하기 버튼*/
+input[type=button] {
+    float: right;
+    margin: 0 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(197, 197, 197);
+    font-size: 15px;
+    font-family: 'Yeon Sung', cursive;
 }
