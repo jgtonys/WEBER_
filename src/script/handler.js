@@ -14,8 +14,8 @@ var contents = new Vue({
       switch(n) {
         case 0: this.week = gwacheonData; break;
         case 1: this.week = deoksugungData; break;
-        case 2: this.week = cheongjuData; break;
-        case 3: this.week = seoulData; break;
+        case 2: this.week = seoulData; break;
+        case 3: this.week = cheongjuData; break;
         default: break;
       }
       this.contentDetail = false;
