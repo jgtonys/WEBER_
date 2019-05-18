@@ -16,6 +16,7 @@ let seoulData = [
       "name": "서울불온",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -28,6 +29,7 @@ let seoulData = [
       "name": "서울대안",
       "img": "src/asset/img/Seoul/img2.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -40,6 +42,7 @@ let seoulData = [
       "name": "서울신소장품",
       "img": "src/asset/img/Seoul/img3.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -53,6 +56,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -65,6 +69,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -77,6 +82,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -90,6 +96,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -102,6 +109,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -114,6 +122,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -127,6 +136,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -139,6 +149,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -151,6 +162,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -164,6 +176,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -176,6 +189,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -188,6 +202,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -201,6 +216,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -213,6 +229,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -225,6 +242,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -238,6 +256,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -250,6 +269,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -262,6 +282,7 @@ let seoulData = [
       "name": "서울테스트",
       "img": "src/asset/img/Seoul/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -277,6 +298,7 @@ let seoulRecommend = [{
     "name": "서울불온",
     "img": "src/asset/img/Seoul/img1.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -289,6 +311,7 @@ let seoulRecommend = [{
     "name": "서울대안",
     "img": "src/asset/img/Seoul/img2.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -301,6 +324,7 @@ let seoulRecommend = [{
     "name": "서울신소장품",
     "img": "src/asset/img/Seoul/img3.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",

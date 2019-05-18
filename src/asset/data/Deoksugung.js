@@ -15,6 +15,7 @@ let deoksugungData = [
       "name": "덕수궁불온",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -27,6 +28,7 @@ let deoksugungData = [
       "name": "덕수궁대안",
       "img": "src/asset/img/Deoksugung/img2.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -39,6 +41,7 @@ let deoksugungData = [
       "name": "덕수궁신소장품",
       "img": "src/asset/img/Deoksugung/img3.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -52,6 +55,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -64,6 +68,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -76,6 +81,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -89,6 +95,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -101,6 +108,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -113,6 +121,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -126,6 +135,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -138,6 +148,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -150,6 +161,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -163,6 +175,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -175,6 +188,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -187,6 +201,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -200,6 +215,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -212,6 +228,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -224,6 +241,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -237,6 +255,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -249,6 +268,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -261,6 +281,7 @@ let deoksugungData = [
       "name": "덕수궁테스트",
       "img": "src/asset/img/Deoksugung/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -276,6 +297,7 @@ let deoksugungRecommend = [{
     "name": "덕수궁불온",
     "img": "src/asset/img/Deoksugung/img1.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -288,6 +310,7 @@ let deoksugungRecommend = [{
     "name": "덕수궁대안",
     "img": "src/asset/img/Deoksugung/img2.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -300,6 +323,7 @@ let deoksugungRecommend = [{
     "name": "덕수궁신소장품",
     "img": "src/asset/img/Deoksugung/img3.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",

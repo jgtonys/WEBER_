@@ -11,11 +11,11 @@ js 파일을 추가하셔서 만드셔도 되고, 변수를 추가하셔도 됩�
 */
 
 let gwacheonData = [
-  [
-    {
+  [{
       "name": "과천불온",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -28,6 +28,7 @@ let gwacheonData = [
       "name": "과천대안",
       "img": "src/asset/img/Gwacheon/img2.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -40,6 +41,7 @@ let gwacheonData = [
       "name": "과천신소장품",
       "img": "src/asset/img/Gwacheon/img3.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -49,11 +51,11 @@ let gwacheonData = [
       }
     },
   ],
-  [
-    {
+  [{
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -66,6 +68,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -78,6 +81,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -87,11 +91,11 @@ let gwacheonData = [
       }
     },
   ],
-  [
-    {
+  [{
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -104,6 +108,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -116,44 +121,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-  ],
-  [
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -163,11 +131,11 @@ let gwacheonData = [
       }
     },
   ],
-  [
-    {
+  [{
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -180,6 +148,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -192,44 +161,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-  ],
-  [
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
-        "date": "2019.09.10",
-        "author": "누구누구",
-        "numOfWorks": "10개",
-        "price": "35,000",
-        "host": "누구누구주최",
-        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
-      }
-    },
-    {
-      "name": "과천테스트",
-      "img": "src/asset/img/Gwacheon/img1.png",
-      "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -239,11 +171,11 @@ let gwacheonData = [
       }
     },
   ],
-  [
-    {
+  [{
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -256,6 +188,7 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -268,6 +201,87 @@ let gwacheonData = [
       "name": "과천테스트",
       "img": "src/asset/img/Gwacheon/img1.png",
       "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+  ],
+  [{
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+    {
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+    {
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+  ],
+  [{
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+    {
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
+        "date": "2019.09.10",
+        "author": "누구누구",
+        "numOfWorks": "10개",
+        "price": "35,000",
+        "host": "누구누구주최",
+        "content": "내용ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ"
+      }
+    },
+    {
+      "name": "과천테스트",
+      "img": "src/asset/img/Gwacheon/img1.png",
+      "contents": {
+        "fullname": "풀네임",
         "date": "2019.09.10",
         "author": "누구누구",
         "numOfWorks": "10개",
@@ -279,11 +293,11 @@ let gwacheonData = [
   ]
 ];
 
-let gwacheonRecommend = [
-  {
+let gwacheonRecommend = [{
     "name": "과천불온",
     "img": "src/asset/img/Gwacheon/img1.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -296,6 +310,7 @@ let gwacheonRecommend = [
     "name": "과천대안",
     "img": "src/asset/img/Gwacheon/img2.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
@@ -308,6 +323,7 @@ let gwacheonRecommend = [
     "name": "과천신소장품",
     "img": "src/asset/img/Gwacheon/img3.png",
     "contents": {
+      "fullname": "풀네임",
       "date": "2019.09.10",
       "author": "누구누구",
       "numOfWorks": "10개",
