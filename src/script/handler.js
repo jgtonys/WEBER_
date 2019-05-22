@@ -12,10 +12,10 @@ var contents = new Vue({
     changeMenu(n) {
       this.location = n;
       switch(n) {
-        case 0: this.week = gwacheonData; break;
-        case 1: this.week = deoksugungData; break;
-        case 2: this.week = seoulData; break;
-        case 3: this.week = cheongjuData; break;
+        case 0: this.week = gwacheonData; this.recommend = gwacheonRecommend; break;
+        case 1: this.week = deoksugungData; this.recommend = deoksugungRecommend; break;
+        case 2: this.week = seoulData; this.recommend = seoulRecommend; break;
+        case 3: this.week = cheongjuData; this.recommend = cheongjuRecommend; break;
         default: break;
       }
       this.contentDetail = false;
