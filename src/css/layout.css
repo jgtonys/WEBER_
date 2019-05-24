@@ -71,7 +71,7 @@ h2 {   /*요일 별 전시정보 타이틀*/
     padding: 0 5px 30px 5px;   /*padding-bottom은 배너길이에 따라 수동으로 조정*/
     margin-left: 40px;
     width: 68%;
-    height: 1050px;
+    height: 1100px;
     float: left;
     background-color: rgb(237, 238, 241);   /*배너 색깔과 통일하기*/
 }
@@ -79,7 +79,13 @@ h2 {   /*요일 별 전시정보 타이틀*/
 
 /*전시 달력*/
 
-table {
+.tb1 {
+    width: 1000px;
+    padding: 0 50px 0 50px;
+    opacity: 0.8 ;
+}
+
+.tb2 {
     width: 1000px;
     padding: 0 50px 60px 50px;
     border-bottom: 1.5px solid #bebebe;
@@ -89,7 +95,6 @@ table {
 td {
     padding: 5px 0;
 }
-
 
 .day {
     font-size: 20px;
@@ -121,7 +126,6 @@ td {
 /*추천 전시 세가지*/
 .recommend {
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 .post {
@@ -151,7 +155,7 @@ td {
 /* /////// 배너 /////// */
 #banner {
     width: 25.5%;
-    height: 1050px;
+    height: 1100px;
     float: left;
     padding: 0 10px 30px 10px;
     margin-left: 16px;
@@ -239,7 +243,7 @@ input[type=submit] {
 
 .post-content {
     margin: 10px;
-    padding: 130px 0 0 20px;
+    padding: 120px 0 0 20px;
     float: left;
     text-align: start;
     width: 360px;
