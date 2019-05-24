@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <meta charset="utf-8" />
   <title></title>
@@ -22,10 +23,21 @@
     <div id="wrap">
       <div id="content">
         <div class="gif1">
-            <img src="src/asset/video/gif1.gif" width="750px" height="400px">
+          <img src="src/asset/video/gif1.gif" width="750px" height="400px">
         </div>
 
         <h2>요일 별 전시정보</h2>
+        <table>
+          <tr class="day">
+            <td><button class="Prev" onclick="goPrevWeek();">&#8249;</button></td>
+            <td>
+              <div id="weekval">
+                2019.05.19~2019.05.25
+              </div>
+            </td>
+            <td> <button class="Next" onclick="goNextWeek();">&#8250;</button></td>
+          </tr>
+        </table>
         <table>
           <tr class="day">
             <td>월</td>
@@ -72,7 +84,7 @@
             <p>{{ detail.contents.content }}</p>
             <br>
             <form>
-              <input type="button" value="예약하기" onClick="location.href='#.html'">
+              <input type="button" value="예약하기" onclick="openModal()">
               <!--누르면 예약 폼으로 연결됨-->
             </form>
           </div>
@@ -106,7 +118,9 @@
 
         <p class="map"><i class="fas fa-map-marker-alt"></i>&nbsp;국립현대미술관 오시는 길</p>
         <!--서울, 과천, 덕수궁, 청주 주소-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.753261884332!2d126.97863686504479!3d37.57952725042923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c14dacd53d%3A0x205c23120e574816!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyEnOyauOq0gA!5e0!3m2!1sko!2skr!4v1557898908841!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.753261884332!2d126.97863686504479!3d37.57952725042923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c14dacd53d%3A0x205c23120e574816!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyEnOyauOq0gA!5e0!3m2!1sko!2skr!4v1557898908841!5m2!1sko!2skr"
+          width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
         <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101284.13410307924!2d126.9299461996947!3d37.50487102355629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed7e746c37%3A0x94e9dea2d7bf466d!2z6rWt66a97ZiE64yA66-47Iig6rSA!5e0!3m2!1sko!2skr!4v1557899183635!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12649.013284922932!2d126.96827588293273!3d37.57265217674595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f0b7fddc216fc3!2z6rWt66a97ZiE64yA66-47Iig6rSAIOuNleyImOq2geq0gA!5e0!3m2!1sko!2skr!4v1557899076449!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.79286240197!2d127.4880026151129!3d36.65543347997859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565278d8298e149%3A0xd5a6eecde9138557!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyyreyjvOq0gA!5e0!3m2!1sko!2skr!4v1557899121053!5m2!1sko!2skr" width="290" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -116,10 +130,10 @@
         <hr>
 
         <div class="gif2">
-            <img src="src/asset/video/gif2.gif" width="290px" height="400px">
+          <img src="src/asset/video/gif2.gif" width="290px" height="400px">
         </div>
 
-    </div>
+      </div>
     </div>
 
     <hr>
@@ -131,9 +145,16 @@
       <p>Copyright ⓒ 2019 WEBER<p>
     </div>
   </div>
+
+  <div id="modal">
+    <h3>Test Modal</h3>
+    <p>이 창은 모달창입니다.</p>
+    <button id="confirm_button">확인</button>
+    <button class="js_close">닫기</button>
+  </div>
 </body>
 
 <script src="src/asset/data/dataIndex.js"></script>
-<script src="src/script/handler.js"></script>
+<script src="src/script/index.js"></script>
 
 </html>

@@ -2,46 +2,48 @@
 @import url(https://fonts.googleapis.com/css?family=Yeon+Sung);
 
 * {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
   cursor: pointer;
 }
 
-div {       /*전체 div에 마진 패딩 5px씩*/
-    /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
+div {
+  /*전체 div에 마진 패딩 5px씩*/
+  /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
 
-h2 {   /*요일 별 전시정보 타이틀*/
-    width: 190px;
-    padding: 10px;
-    margin: 20px auto;
-    border-bottom: 2px solid #cacaca;
+h2 {
+  /*요일 별 전시정보 타이틀*/
+  width: 190px;
+  padding: 10px;
+  margin: 20px auto;
+  border-bottom: 2px solid #cacaca;
 }
 
-
-#con {      /*웹 전체를 감싸는 태그*/
-    width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+#con {
+  /*웹 전체를 감싸는 태그*/
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 /* /////// 헤더 /////// */
 #header {
-    width: 1180px;
-    height: 200px;
-    line-height: 100px;
+  width: 1180px;
+  height: 200px;
+  line-height: 100px;
 }
 
 /* /////// 네비게이션 /////// */
 #nav {
-    width: 1180px;
-    height: 60px;
-    overflow: hidden;
+  width: 1180px;
+  height: 60px;
+  overflow: hidden;
 }
 
 #nav ul {
@@ -49,13 +51,13 @@ h2 {   /*요일 별 전시정보 타이틀*/
 }
 
 #nav ul li button {
-    width: 280px;
-    height: 40px;
-    line-height: 40px;
-    float: left;
-    background-color: #cacaca;
-    border: 1px solid #dddddd;
-    font-weight: bold;
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  background-color: #cacaca;
+  border: 1px solid #dddddd;
+  font-weight: bold;
 }
 
 #nav ul li button:hover {
@@ -63,64 +65,63 @@ h2 {   /*요일 별 전시정보 타이틀*/
   color: white;
 }
 
-#wrap {     /*컨텐트와 배너를 감싸는 태그*/
-    width: 1180px;
-    overflow: hidden;
+#wrap {
+  /*컨텐트와 배너를 감싸는 태그*/
+  width: 1180px;
+  overflow: hidden;
 }
 
 /* /////// 컨텐트(아티클) /////// */
 #content {
-    width: 835px;
-    float: left;
+  width: 835px;
+  float: left;
 }
 
-
 /*전시 달력*/
-
 table {
-    margin-left: 50px;
-    width: 785px;
+  margin-left: 50px;
+  width: 785px;
 }
 
 td {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
-
 .day {
-    border: 1px solid #bebebe;
-    background-color: #bebebe;
-    font-weight: bold;
+  border: 1px solid #bebebe;
+  background-color: #bebebe;
+  font-weight: bold;
 }
 
 .cal {
-    height: 100px;  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
-    border: 1px solid #eeeeee;
-    background: linear-gradient(0deg, #eeeeee, #cacaca);
-    font-size: 14px;
+  height: 100px;
+  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
+  border: 1px solid #eeeeee;
+  background: linear-gradient(0deg, #eeeeee, #cacaca);
+  font-size: 14px;
 }
 
 /*전시홍보 gif1 -아티클용*/
 .gif1 {
-    margin-left: 50px;
-    margin-bottom: 40px;
-    border: 5px solid #eeeeee;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  border: 5px solid #eeeeee;
 }
 
 /*전시홍보 gif2 -배너용*/
 .gif2 {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 /*추천 전시 세가지*/
 .recommend {
-    margin-left: 30px;
-    margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .post {
-    margin: 10px;
-    float: left;
+  margin: 10px;
+  float: left;
 }
 
 .post .semi-detail {
@@ -137,99 +138,109 @@ td {
   margin: 1px 0px 10px 1px;
 }
 
-
 /* /////// 배너 /////// */
 #banner {
-    width: 300px;
-    float: left;
+  width: 300px;
+  float: left;
 }
 
 /*뉴스레터 받아보기*/
 .newsletter {
-    margin: 30px 0;
-    border: 2px solid #dddddd;
+  margin: 30px 0;
+  border: 2px solid #dddddd;
 }
 
 .email {
-    color:black;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Yeon Sung', cursive;
+  color: black;
+  margin: 10px;
+  font-size: 30px;
+  font-family: 'Yeon Sung', cursive;
 }
 
 input[type=text] {
-    width: 150px;
-    margin: 10px 0 10px 5px;
-    border-radius: 25px 0 0 25px;
-    padding: 5px;
+  width: 150px;
+  margin: 10px 0 10px 5px;
+  border-radius: 25px 0 0 25px;
+  padding: 5px;
 }
 
 input[type=submit] {
-    width: 70px;
-    margin: 10px 5px 10px 0;
-    border-radius: 0 25px 25px 0;
-    padding: 5px;
-    cursor: pointer;
+  width: 70px;
+  margin: 10px 5px 10px 0;
+  border-radius: 0 25px 25px 0;
+  padding: 5px;
+  cursor: pointer;
 }
 
 /*이미지에 SNS링크걸어둠*/
 .sns {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .sns a {
-    margin: 10px;
-    color:black;
-    line-height: 50px;
-    font-size: 50px;
+  margin: 10px;
+  color: black;
+  line-height: 50px;
+  font-size: 50px;
 }
 
 /*미술관 홍보동영상*/
 .player {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 /*지도. 오시는 길. */
 .map {
-    margin: 30px 0 15px 0;
-    font-size: 18px;
-    font-family: 'Yeon Sung', cursive;
+  margin: 30px 0 15px 0;
+  font-size: 18px;
+  font-family: 'Yeon Sung', cursive;
 }
 
 /* /////// 풋터 /////// */
 #footer {
-    width: 1180px;
-    font-size: 10px;
+  width: 1180px;
+  font-size: 10px;
 }
 
 /*전시 클릭하면 전시정보 자세히 나옴*/
 .post-detail {
-    margin-left: 50px;
-    overflow: hidden;
-    border: 2px solid #dddddd;
+  margin-left: 50px;
+  overflow: hidden;
+  border: 2px solid #dddddd;
 }
 
 .post-img {
-    margin: 10px;
-    float: left;
+  margin: 10px;
+  float: left;
 }
 
 .post-content {
-    margin: 10px;
-    padding: 80px 0 0 0;
-    float: left;
-    text-align: start;
-    width: 360px;
+  margin: 10px;
+  padding: 80px 0 0 0;
+  float: left;
+  text-align: start;
+  width: 360px;
 }
 
 /*예약하기 버튼*/
 input[type=button] {
-    float: right;
-    margin: 0 30px;
-    cursor: pointer;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: rgb(197, 197, 197);
-    font-size: 15px;
-    font-family: 'Yeon Sung', cursive;
+  float: right;
+  margin: 0 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgb(197, 197, 197);
+  font-size: 15px;
+  font-family: 'Yeon Sung', cursive;
+}
+
+#modal {
+  display: none;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  padding: 10px;
+  border: 2px solid #E2E2E2;
+  z-Index: 9999
 }
