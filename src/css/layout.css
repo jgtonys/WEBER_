@@ -18,7 +18,7 @@ div {       /*전체 div에 마진 패딩 5px씩*/
 }
 
 h2 {   /*요일 별 전시정보 타이틀*/
-    width: 190px;
+    width: 200px;
     padding: 30px 10px 10px;
     margin: 20px auto;
     border-bottom: 2px solid #cacaca;
@@ -100,10 +100,24 @@ td {
 
 td:root {
     padding: 10px 0;
+
 }
 
+button.Prev {
+    border: 0px solid;
+    background-color: #4a5968;
+    color: white;
+    padding: 5px;
+}
+
+button.Next {
+    border: 0px solid;
+    background-color: #4a5968;
+    color: white;
+    padding: 5px;
+}
 .day {
-    font-size: 20px;
+    font-size: 16px;
     border: 1px solid #dddddd;
     background-color: #4a5968;
     color: white;
@@ -116,6 +130,7 @@ td:root {
     font-size: 18px;
     font-weight: bold;
     color: white;
+    word-break:break-all;
 }
 
 .cal a:hover {

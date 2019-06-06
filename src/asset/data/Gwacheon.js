@@ -343,7 +343,7 @@ let gwacheonData2 = [
        }
     },
     {
-      "name": "근대를…",
+        "name": '근대를 \n\n수놓은 그림',
       "img": "src/asset/img/Gwacheon/img4.png",
       "contents": {
         "fullname": "근대를 수놓은 그림",
@@ -370,7 +370,7 @@ let gwacheonData2 = [
      }
   },
   {
-    "name": "근대를…",
+    "name": '근대를 \n수놓은 그림',
     "img": "src/asset/img/Gwacheon/img4.png",
     "contents": {
       "fullname": "근대를 수놓은 그림",
@@ -397,7 +397,7 @@ let gwacheonData2 = [
    }
 },
 {
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -423,7 +423,7 @@ let gwacheonData2 = [
    }
 },
 {
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -482,7 +482,7 @@ let gwacheonRecommend2 = [{
 
 let gwacheonData3 = [
   [{
-      "name": "근대를…",
+      "name": '근대를 \n수놓은 그림',
       "img": "src/asset/img/Gwacheon/img4.png",
       "contents": {
         "fullname": "근대를 수놓은 그림",
@@ -509,7 +509,7 @@ let gwacheonData3 = [
     },
   ],
   [{
-    "name": "근대를…",
+    "name": '근대를 \n수놓은 그림',
     "img": "src/asset/img/Gwacheon/img4.png",
     "contents": {
       "fullname": "근대를 수놓은 그림",
@@ -536,7 +536,7 @@ let gwacheonData3 = [
   },
 ],
 [{
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -563,7 +563,7 @@ let gwacheonData3 = [
 },
 ],
 [{
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -590,7 +590,7 @@ let gwacheonData3 = [
 },
 ],
 [{
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -617,7 +617,7 @@ let gwacheonData3 = [
 },
 ],
 [{
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -644,7 +644,7 @@ let gwacheonData3 = [
 },
 ],
 [{
-  "name": "근대를…",
+  "name": '근대를 \n수놓은 그림',
   "img": "src/asset/img/Gwacheon/img4.png",
   "contents": {
     "fullname": "근대를 수놓은 그림",
@@ -730,7 +730,7 @@ let gwacheonData4 = [
       }
     },
     {
-      "name": "문명: …",
+      "name":  "문명: \n지금 우리가 \n사는 방법",
       "img": "src/asset/img/Gwacheon/img5.png",
       "contents": {
         "fullname": "문명: 지금 우리가 사는 방법",
@@ -757,7 +757,7 @@ let gwacheonData4 = [
      }
     },
     {
-      "name": "문명: …",
+      "name":  "문명: \n지금 우리가 \n사는 방법",
       "img": "src/asset/img/Gwacheon/img5.png",
       "contents": {
         "fullname": "문명: 지금 우리가 사는 방법",
@@ -784,7 +784,7 @@ let gwacheonData4 = [
    }
   },
   {
-    "name": "문명: …",
+    "name":  "문명: \n지금 우리가 \n사는 방법",
     "img": "src/asset/img/Gwacheon/img5.png",
     "contents": {
       "fullname": "문명: 지금 우리가 사는 방법",
@@ -811,7 +811,7 @@ let gwacheonData4 = [
       }
     },
   {
-    "name": "문명: …",
+    "name":  "문명: \n지금 우리가 \n사는 방법",
     "img": "src/asset/img/Gwacheon/img5.png",
     "contents": {
       "fullname": "문명: 지금 우리가 사는 방법",
@@ -838,7 +838,7 @@ let gwacheonData4 = [
       }
     },
     {
-     "name": "문명: …",
+     "name":  "문명: \n지금 우리가 \n사는 방법",
      "img": "src/asset/img/Gwacheon/img5.png",
      "contents": {
         "fullname": "문명: 지금 우리가 사는 방법",
@@ -865,7 +865,7 @@ let gwacheonData4 = [
         }
       },
   {
-     "name": "문명: …",
+     "name":  "문명: \n지금 우리가 \n사는 방법",
      "img": "src/asset/img/Gwacheon/img5.png",
      "c ontents": {
         "fullname": "문명: 지금 우리가 사는 방법",
@@ -892,7 +892,7 @@ let gwacheonData4 = [
          }
       },
     {
-      "name": "문명: …",
+      "name":  "문명: \n지금 우리가 \n사는 방법",
       "img": "src/asset/img/Gwacheon/img5.png",
       "contents": {
         "fullname": "문명: 지금 우리가 사는 방법",
