@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title></title>
+  <meta name="description" content="학술정보웹사이트구축론 팀 프로젝트">
+  <meta name="keyword" content="전시정보 웹사이트">
+  <title>전시정보 웹사이트</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="src/css/layout.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -140,17 +142,41 @@
     <div id="footer">
       <img src="src/asset/logo/logo2.PNG" width="100px" height="100px">
       <p>대표자명 윤범모 사업자등록번호 138-83-00313</p>
-      <p>Copyright (c)2018 National Museum of Modern and Contemporary Art, Korea All rights reserved.</p>
       <p>대표전화 | (과천) 02-2188-6000, (서울) 02-3701-9500, (덕수궁) 02-2022-0600, (청주) 043-261-1400</p>
       <p>Copyright ⓒ 2019 WEBER<p>
+          <address>finish</address>
     </div>
   </div>
 
   <div id="modal">
-    <h3>Test Modal</h3>
-    <p>이 창은 모달창입니다.</p>
-    <button id="confirm_button">확인</button>
-    <button class="js_close">닫기</button>
+    <h3>예약하기</h3>
+    <form>
+      <fieldset>
+        <legend>예약자 정보</legend>
+        <label>예약ID: <input type="text"></label><br>
+        <label>예약PW: <input type="password"></label><br>
+        <label>나이:
+          <select>
+            <optgroup label="예약자 나이대">
+              <option value="10_">10대</option>
+              <option value="20_">20대</option>
+              <option value="30_">30대</option>
+              <option value="40_">40대~</option>
+            </optgroup>
+          </select>
+        </label>
+        <br>
+        <input type="checkbox" name="" value="guide">오디오 가이드 수령<br>
+        증빙서류: <input type="file" name="myFile"><br>
+      </fieldset>
+      <textarea style="width: 90%">
+      주의사항
+    </textarea>
+      <br>
+      <input type="reset">
+      <button id="confirm_button">제출</button>
+      <button class="js_close">닫기</button>
+    </form>
   </div>
 </body>
 

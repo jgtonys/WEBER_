@@ -10,6 +10,6 @@ function openModal() {
 
 // 모달 창 안에 있는 확인 버튼에 이벤트 걸기
 $("#confirm_button").click(function() {
-    alert("나는 모달창이다.");
+    alert("예약이 완료되었습니다");
     formModal.hide(); // 모달창 감추기
 });
