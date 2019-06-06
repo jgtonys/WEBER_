@@ -99,15 +99,15 @@ var contents = new Vue({
             break;
           case 1:
             this.week = gwacheonData2;
-            this.recommend = gwacheonRecommend2;
+            this.recommend = gwacheonRecommend;
             break;
           case 2:
             this.week = gwacheonData3;
-            this.recommend = gwacheonRecommend3;
+            this.recommend = gwacheonRecommend;
             break;
           case 3:
             this.week = gwacheonData4;
-            this.recommend = gwacheonRecommend4;
+            this.recommend = gwacheonRecommend;
             break;
         }
       } else if (this.location == 1) {
@@ -118,15 +118,15 @@ var contents = new Vue({
             break;
           case 1:
             this.week = deoksugungData2;
-            this.recommend = deoksugungRecommend2;
+            this.recommend = deoksugungRecommend;
             break;
           case 2:
             this.week = deoksugungData3;
-            this.recommend = deoksugungRecommend3;
+            this.recommend = deoksugungRecommend;
             break;
           case 3:
             this.week = deoksugungData4;
-            this.recommend = deoksugungRecommend4;
+            this.recommend = deoksugungRecommend;
             break;
         }
       } else if (this.location == 2) {
@@ -137,15 +137,15 @@ var contents = new Vue({
             break;
           case 1:
             this.week = seoulData2;
-            this.recommend = seoulRecommend2;
+            this.recommend = seoulRecommend;
             break;
           case 2:
             this.week = seoulData3;
-            this.recommend = seoulRecommend3;
+            this.recommend = seoulRecommend;
             break;
           case 3:
             this.week = seoulData4;
-            this.recommend = seoulRecommend4;
+            this.recommend = seoulRecommend;
             break;
         }
       } else if (this.location == 3) {
@@ -156,15 +156,15 @@ var contents = new Vue({
             break;
           case 1:
             this.week = cheongjuData2;
-            this.recommend = cheongjuRecommend2;
+            this.recommend = cheongjuRecommend;
             break;
           case 2:
             this.week = cheongjuData3;
-            this.recommend = cheongjuRecommend3;
+            this.recommend = cheongjuRecommend;
             break;
           case 3:
             this.week = cheongjuData4;
-            this.recommend = cheongjuRecommend4;
+            this.recommend = cheongjuRecommend;
             break;
 
         }
