@@ -183,14 +183,14 @@ td:root {
     font-family: 'Yeon Sung', cursive;
 }
 
-input[type=text] {
+#banner input[type=text] {
     width: 180px;
     margin: 10px 0 10px 5px;
     border-radius: 25px 0 0 25px;
     padding: 5px;
 }
 
-input[type=submit] {
+#banner input[type=submit] {
     width: 70px;
     margin: 10px 5px 10px 0;
     border-radius: 0 25px 25px 0;
@@ -261,7 +261,7 @@ input[type=submit] {
 }
 
 /*예약하기 버튼*/
-input[type=button] {
+#banner input[type=button] {
   float: right;
   margin: 0 30px;
   cursor: pointer;
@@ -276,6 +276,7 @@ input[type=button] {
   display: none;
   background-color: #FFFFFF;
   position: absolute;
+  text-align: left;
   top: 300px;
   left: 200px;
   padding: 10px;
@@ -283,4 +284,7 @@ input[type=button] {
   z-Index: 9999
 }
 
-#modal
+#modal textarea {
+  padding: 10px;
+  margin: 5px;
+}
