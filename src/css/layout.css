@@ -2,48 +2,44 @@
 @import url(https://fonts.googleapis.com/css?family=Yeon+Sung);
 
 * {
-  font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
-div {
-  /*전체 div에 마진 패딩 5px씩*/
-  /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
+div {       /*전체 div에 마진 패딩 5px씩*/
+    /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
 
-h2 {
-  /*요일 별 전시정보 타이틀*/
-  width: 190px;
-  padding: 10px;
-  margin: 20px auto;
-  border-bottom: 2px solid #cacaca;
+h2 {   /*요일 별 전시정보 타이틀*/
+    width: 190px;
+    padding: 30px 10px 10px;
+    margin: 20px auto;
+    border-bottom: 2px solid #cacaca;
+    color: rgb(50, 61, 77);
 }
 
-#con {
-  /*웹 전체를 감싸는 태그*/
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
+
+#con {      /*웹 전체를 감싸는 태그*/
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 /* /////// 헤더 /////// */
 #header {
-  width: 1180px;
-  height: 200px;
-  line-height: 100px;
+    height: 200px;
 }
 
 /* /////// 네비게이션 /////// */
 #nav {
-  width: 1180px;
-  height: 60px;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 #nav ul {
@@ -51,77 +47,101 @@ h2 {
 }
 
 #nav ul li button {
-  width: 280px;
-  height: 40px;
-  line-height: 40px;
-  float: left;
-  background-color: #cacaca;
-  border: 1px solid #dddddd;
-  font-weight: bold;
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: rgb(70, 86, 109);
+    border: 1px solid #dddddd;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 1px rgb(179, 179, 179);
+    color: #dddddd;
 }
 
 #nav ul li button:hover {
-  background-color: #555;
+  background-color: rgb(50, 61, 77);
   color: white;
 }
 
-#wrap {
-  /*컨텐트와 배너를 감싸는 태그*/
-  width: 1180px;
-  overflow: hidden;
+#wrap {     /*컨텐트와 배너를 감싸는 태그*/
+    overflow: hidden;
+    width: 1500px;
 }
 
 /* /////// 컨텐트(아티클) /////// */
 #content {
-  width: 835px;
-  float: left;
+    padding: 0 5px 30px 5px;   /*padding-bottom은 배너길이에 따라 수동으로 조정*/
+    margin-left: 40px;
+    width: 1000px;
+    height: 1100px;
+    float: left;
+    background-color: rgb(237, 238, 241);   /*배너 색깔과 통일하기*/
 }
 
+
 /*전시 달력*/
-table {
-  margin-left: 50px;
-  width: 785px;
+
+.tb1 {
+    width: 1000px;
+    padding: 0 50px 0 50px;
+    opacity: 0.8 ;
+}
+
+.tb2 {
+    width: 1000px;
+    padding: 0 50px 60px 50px;
+    border-bottom: 1.5px solid #bebebe;
+    opacity: 0.8 ;
 }
 
 td {
-  padding: 5px 0;
+    padding: 5px 0;
+}
+
+td:root {
+    padding: 10px 0;
 }
 
 .day {
-  border: 1px solid #bebebe;
-  background-color: #bebebe;
-  font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #dddddd;
+    background-color: #4a5968;
+    color: white;
 }
 
 .cal {
-  height: 100px;
-  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
-  border: 1px solid #eeeeee;
-  background: linear-gradient(0deg, #eeeeee, #cacaca);
-  font-size: 14px;
+    height: 150px;  /*달력 높이는 데이터에 따라 유동적으로 조정가능*/
+    border: 1px solid #dddddd;
+    background: linear-gradient(0deg, rgb(152, 161, 182), #5e6f80);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
+
+.cal a:hover {
+    font-weight: bold;
+    color: rgb(50, 61, 77);
+}
+
 
 /*전시홍보 gif1 -아티클용*/
 .gif1 {
-  margin-left: 50px;
-  margin-bottom: 40px;
-  border: 5px solid #eeeeee;
+    margin-left: 45px;
 }
 
-/*전시홍보 gif2 -배너용*/
-.gif2 {
-  margin: 30px 0;
-}
 
 /*추천 전시 세가지*/
 .recommend {
-  margin-left: 30px;
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .post {
-  margin: 10px;
-  float: left;
+    border-radius: 5% 100% 5% 5%;
+    padding: 15px;
+    background-color: rgb(184, 195, 212);
+    margin-left: 50px;
+    float: left;
+    box-shadow: 1px 1px 2px 1px #778899;
 }
 
 .post .semi-detail {
@@ -138,88 +158,106 @@ td {
   margin: 1px 0px 10px 1px;
 }
 
+
 /* /////// 배너 /////// */
 #banner {
-  width: 300px;
-  float: left;
+    width: 387px;
+    height: 1100px;
+    float: left;
+    padding: 0 10px 30px 10px;
+    margin-left: 16px;
+    background-color: rgb(237, 238, 241);
 }
 
 /*뉴스레터 받아보기*/
 .newsletter {
-  margin: 30px 0;
-  border: 2px solid #dddddd;
+    margin: 30px 0;
+    padding: 20px;
+    color: rgb(50, 61, 77);
 }
 
 .email {
-  color: black;
-  margin: 10px;
-  font-size: 30px;
-  font-family: 'Yeon Sung', cursive;
+    color: rgb(50, 61, 77);
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Yeon Sung', cursive;
 }
 
 input[type=text] {
-  width: 150px;
-  margin: 10px 0 10px 5px;
-  border-radius: 25px 0 0 25px;
-  padding: 5px;
+    width: 180px;
+    margin: 10px 0 10px 5px;
+    border-radius: 25px 0 0 25px;
+    padding: 5px;
 }
 
 input[type=submit] {
-  width: 70px;
-  margin: 10px 5px 10px 0;
-  border-radius: 0 25px 25px 0;
-  padding: 5px;
-  cursor: pointer;
+    width: 70px;
+    margin: 10px 5px 10px 0;
+    border-radius: 0 25px 25px 0;
+    padding: 5px;
+    cursor: pointer;
 }
 
 /*이미지에 SNS링크걸어둠*/
 .sns {
-  margin: 30px 0;
+    padding: 10px;
+    margin: 30px 0;
 }
 
 .sns a {
-  margin: 10px;
-  color: black;
-  line-height: 50px;
-  font-size: 50px;
+    margin: 10px;
+    color:rgb(50, 61, 77);
+    line-height: 50px;
+    font-size: 50px;
 }
 
 /*미술관 홍보동영상*/
 .player {
-  margin: 30px 0;
+    margin: 20px 0;
+    padding: 30px 10px;
 }
 
 /*지도. 오시는 길. */
+.mapcover
+ {
+    padding: 10px;
+ }
+
 .map {
-  margin: 30px 0 15px 0;
-  font-size: 18px;
-  font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    color: rgb(50, 61, 77);
 }
 
 /* /////// 풋터 /////// */
 #footer {
-  width: 1180px;
-  font-size: 10px;
+    margin: 0 auto;
+    font-size: 10px;
 }
 
 /*전시 클릭하면 전시정보 자세히 나옴*/
 .post-detail {
-  margin-left: 50px;
-  overflow: hidden;
-  border: 2px solid #dddddd;
+    margin: 10px 5px;
+    overflow: hidden;
+    border: 2px solid rgb(50, 61, 77);
+    padding: 0 30px 20px 50px;
 }
 
 .post-img {
-  margin: 10px;
-  float: left;
+    margin: 10px;
+    float: left;
 }
 
 .post-content {
-  margin: 10px;
-  padding: 80px 0 0 0;
-  float: left;
-  text-align: start;
-  width: 360px;
+    margin: 10px;
+    padding: 120px 0 0 20px;
+    float: left;
+    text-align: start;
+    width: 360px;
+}
+
+.post-content::first-line {
+    font-weight: bold;
 }
 
 /*예약하기 버튼*/
