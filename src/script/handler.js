@@ -12,6 +12,7 @@ var contents = new Vue({
     changeMenu(n) {
       this.location = n;
       if (n == 0) {
+        document.getElementById("iframe_map").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101284.13410307924!2d126.9299461996947!3d37.50487102355629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed7e746c37%3A0x94e9dea2d7bf466d!2z6rWt66a97ZiE64yA66-47Iig6rSA!5e0!3m2!1sko!2skr!4v1557899183635!5m2!1sko!2skr";
         switch (weekvar) {
           case 0:
             this.week = gwacheonData;
@@ -31,6 +32,7 @@ var contents = new Vue({
             break;
         }
       } else if (n == 1) {
+        document.getElementById("iframe_map").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12649.013284922932!2d126.96827588293273!3d37.57265217674595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f0b7fddc216fc3!2z6rWt66a97ZiE64yA66-47Iig6rSAIOuNleyImOq2geq0gA!5e0!3m2!1sko!2skr!4v1557899076449!5m2!1sko!2skr";
         switch (weekvar) {
           case 0:
             this.week = deoksugungData;
@@ -50,6 +52,7 @@ var contents = new Vue({
             break;
         }
       } else if (n == 2) {
+        document.getElementById("iframe_map").src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.753261884332!2d126.97863686504479!3d37.57952725042923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c14dacd53d%3A0x205c23120e574816!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyEnOyauOq0gA!5e0!3m2!1sko!2skr!4v1557898908841!5m2!1sko!2skr"
         switch (weekvar) {
           case 0:
             this.week = seoulData;
@@ -69,6 +72,7 @@ var contents = new Vue({
             break;
         }
       } else if (n == 3) {
+        document.getElementById("iframe_map").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.79286240197!2d127.4880026151129!3d36.65543347997859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565278d8298e149%3A0xd5a6eecde9138557!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyyreyjvOq0gA!5e0!3m2!1sko!2skr!4v1557899121053!5m2!1sko!2skr";
         switch (weekvar) {
           case 0:
             this.week = cheongjuData;
