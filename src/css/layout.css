@@ -7,6 +7,7 @@
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 div {       /*전체 div에 마진 패딩 5px씩*/
@@ -64,13 +65,14 @@ h2 {   /*요일 별 전시정보 타이틀*/
 
 #wrap {     /*컨텐트와 배너를 감싸는 태그*/
     overflow: hidden;
+    width: 1500px;
 }
 
 /* /////// 컨텐트(아티클) /////// */
 #content {
     padding: 0 5px 30px 5px;   /*padding-bottom은 배너길이에 따라 수동으로 조정*/
     margin-left: 40px;
-    width: 68%;
+    width: 1000px;
     height: 1100px;
     float: left;
     background-color: rgb(237, 238, 241);   /*배너 색깔과 통일하기*/
@@ -96,6 +98,10 @@ td {
     padding: 5px 0;
 }
 
+td:root {
+    padding: 10px 0;
+}
+
 .day {
     font-size: 20px;
     border: 1px solid #dddddd;
@@ -116,6 +122,7 @@ td {
     font-weight: bold;
     color: rgb(50, 61, 77);
 }
+
 
 /*전시홍보 gif1 -아티클용*/
 .gif1 {
@@ -154,7 +161,7 @@ td {
 
 /* /////// 배너 /////// */
 #banner {
-    width: 25.5%;
+    width: 387px;
     height: 1100px;
     float: left;
     padding: 0 10px 30px 10px;
@@ -247,6 +254,10 @@ input[type=submit] {
     float: left;
     text-align: start;
     width: 360px;
+}
+
+.post-content::first-line {
+    font-weight: bold;
 }
 
 /*예약하기 버튼*/
