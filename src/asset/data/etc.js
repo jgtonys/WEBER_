@@ -1,3 +1,7 @@
+/*
+메뉴 구조 및 세부 구조 정의 파일
+*/
+
 let locationList = [{
     name: '과천',
     link: 'menuSelect(0)'
