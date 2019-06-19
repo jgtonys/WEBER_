@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <!-- meta information -->
   <meta charset="utf-8" />
   <meta name="description" content="학술정보웹사이트구축론 팀 프로젝트">
   <meta name="keyword" content="전시정보 웹사이트">
+  
+  <!-- title -->
   <title>전시정보 웹사이트</title>
+  
+  <!-- external stylesheet for fontawesome icon -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  
+  <!-- main stylesheet -->
   <link rel="stylesheet" href="src/css/layout.css">
+  
+  <!-- external additional script -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  
+  <!-- main content -->
   <div id="con">
+    
+    <!-- header -->
     <div id="header">
       <a href="index.html"><img src="src/asset/logo/logo.PNG" width="450px" height="190px"></a>
     </div>
-
+    
+    <!-- main gif video -->
     <div class="gif1">
       <img src="src/asset/video/gif1.gif" width="100%" height="500px">
     </div>
-
+    
+    <!-- navigation -->
     <div id="nav">
       <ul>
         <li v-for="location in location_list"><button :onclick="location.link">{{ location.name }}</button></li>
       </ul>
     </div>
 
+    <!-- content wrapper -->
     <div id="wrap">
+      
+      <!-- content -->
       <div id="content">
-
         <h2>요일 별 전시정보</h2>
-
+        
+        <!-- calendar handler -->
         <table class="tb1">
           <tr class="day">
             <td><button class="Prev" onclick="goPrevWeek();">&#8249;</button></td>
@@ -44,6 +60,8 @@
             <td> <button class="Next" onclick="goNextWeek();">&#8250;</button></td>
           </tr>
         </table>
+        
+        <!-- calendar view -->
         <table class="tb2">
           <tr class="day">
             <td>월</td>
@@ -60,7 +78,8 @@
             </td>
           </tr>
         </table>
-
+        
+        <!-- recommend view -->
         <div class="recommend" v-if="!contentDetail">
           <h2>추천 전시 정보</h2>
           <div class="post" v-for="(item,i) in recommend">
@@ -74,7 +93,8 @@
             </a>
           </div>
         </div>
-
+        
+        <!-- content detail view -->
         <div class="post-detail" v-if="contentDetail">
           <div class="post-img">
             <h2>{{ detail.name }}</h2>
@@ -90,14 +110,17 @@
             <p>{{ detail.contents.content }}</p>
             <br>
             <form>
+              <!-- modal function activation -->
               <input type="button" value="예약하기" onclick="openModal()">
-              <!--누르면 예약 폼으로 연결됨-->
             </form>
           </div>
         </div>
       </div>
-
+      
+      <!-- side banner -->
       <div id="banner">
+        
+        <!-- newsletter view -->
         <div class="newsletter">
           <p class="email"><i class="far fa-envelope"></i>&nbsp;뉴스레터</p>
           <form>
@@ -106,17 +129,22 @@
           </form>
         </div>
         <hr>
+        
+        <!-- sns link view -->
         <div class="sns">
           <a href="https://www.facebook.com/mmcakorea/" target="_blank"><i class="fab fa-facebook-square"></i></a>
           <a href="https://www.twitter.com/mmcakorea" target="_blank"><i class="fab fa-twitter-square"></i></a>
           <a href="https://www.instagram.com/mmcakorea/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <hr>
-
+        
+        <!-- video player view -->
         <div class="player">
           <video src="src/asset/video/video.mp4" width="330px" height="220px" controls></video>
         </div>
         <hr>
+        
+        <!-- map view -->
         <div class="mapcover">
           <p class="map"><i class="fas fa-map-marker-alt"></i>&nbsp;국립현대미술관 오시는 길</p>
           <iframe
@@ -125,8 +153,9 @@
         </div>
       </div>
     </div>
-
     <hr>
+    
+    <!-- footer -->
     <div id="footer">
       <img src="src/asset/logo/logo2.PNG" width="100px" height="100px">
       <p>대표자명 윤범모 사업자등록번호 138-83-00313</p>
@@ -135,6 +164,7 @@
     </div>
   </div>
 
+  <!-- reservation modal -->
   <div id="modal">
     <h3>예약하기</h3>
     <form>
@@ -167,6 +197,7 @@
   </div>
 </body>
 
+<!-- external script -->
 <script src="src/asset/data/dataIndex.js"></script>
 <script src="src/script/index.js"></script>
 
