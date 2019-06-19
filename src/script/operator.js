@@ -1,3 +1,7 @@
+/*
+예약하기 모달 내부 스크립트
+*/
+
 // 모달창 인스턴트 생성
 var formModal = new SubmitForm.Modal({
     id: "modal" // 모달창 아이디 지정
