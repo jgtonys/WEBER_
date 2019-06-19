@@ -1,3 +1,7 @@
+/*
+정적 데이터 인덱싱 파일
+*/
+
 document.write("<script src='src/asset/data/etc.js'></script>");
 document.write("<script src='src/asset/data/Cheongju.js'></script>");
 document.write("<script src='src/asset/data/Deoksugung.js'></script>");
