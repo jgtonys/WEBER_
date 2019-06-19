@@ -5,9 +5,6 @@ img는 경로 그대로 넣고 파일명만 작성
 
 json 파일 모델
 http://www.objgen.com/json/models/Xd6z
-
-예시 파일이라 1주만 만들어 놓았습니다
-js 파일을 추가하셔서 만드셔도 되고, 변수를 추가하셔도 됩니다
 */
 
 let cheongjuData = [
