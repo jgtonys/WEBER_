@@ -10,14 +10,16 @@ a {
   text-decoration: none;
 }
 
-div {       /*전체 div에 마진 패딩 5px씩*/
-    /*border: 1px solid black;    이거 넣어서 보시면 레이아웃 이해 더 쉬우실겁니다.*/
+/*전체 div에 마진 패딩 5px씩*/
+div {       
+    /*border: 1px solid black;*/
     padding: 5px;
     margin: 5px;
     text-align: center;
 }
 
-h2 {   /*요일 별 전시정보 타이틀*/
+/*요일 별 전시정보 타이틀*/
+h2 {   
     width: 200px;
     padding: 30px 10px 10px;
     margin: 20px auto;
@@ -25,8 +27,8 @@ h2 {   /*요일 별 전시정보 타이틀*/
     color: rgb(50, 61, 77);
 }
 
-
-#con {      /*웹 전체를 감싸는 태그*/
+/*웹 전체를 감싸는 태그*/
+#con {      
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
@@ -63,7 +65,8 @@ h2 {   /*요일 별 전시정보 타이틀*/
   color: white;
 }
 
-#wrap {     /*컨텐트와 배너를 감싸는 태그*/
+/*컨텐트와 배너를 감싸는 태그*/
+#wrap {     
     overflow: hidden;
     width: 1500px;
 }
@@ -213,7 +216,7 @@ button.Next {
     cursor: pointer;
 }
 
-/*이미지에 SNS링크걸어둠*/
+/*이미지 SNS링크*/
 .sns {
     padding: 10px;
     margin: 30px 0;
@@ -287,6 +290,7 @@ button.Next {
   font-family: 'Yeon Sung', cursive;
 }
 
+/*예약하기 모달*/
 #modal {
   display: none;
   background-color: #FFFFFF;
