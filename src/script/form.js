@@ -1,3 +1,9 @@
+/*
+예매하기 모달 정의 스크립트
+일부 스크립트 jquery 사용
+*/
+
+
 if(typeof(SubmitForm) == "undefined") var SubmitForm = {};
 
 (function($){
